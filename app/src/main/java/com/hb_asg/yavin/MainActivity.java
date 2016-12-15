@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setSupportZoom(false);
 
-        webView.loadUrl("file:///android_asset/www/index.html");
+      webView.loadUrl("file:///android_asset/www/index.html");
+       // webView.loadUrl("https://www.baidu.com");
     }
 }
